@@ -8,10 +8,10 @@ class Movie
     public $year;
     public $description;
 
-    public function __construct(string $title /* string $image */, string $language, string $year, string $description)
+    public function __construct(string $title, string $image, string $language, string $year, string $description)
     {
         $this->title = $title;
-        /* $this->image = $image; */
+        $this->image = $image;
         $this->language = $language;
         $this->year = $year;
         $this->description = $description;
