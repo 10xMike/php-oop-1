@@ -7,7 +7,6 @@ class Movie
     public $language;
     public $year;
     public $description;
-    public $release;
 
     public function __construct(string $title, string $image, string $language, string $year, string $description, string $release)
     {
@@ -16,7 +15,6 @@ class Movie
         $this->language = $language;
         $this->year = $year;
         $this->description = $description;
-        $this->release = $release;
     }
 
     /**
