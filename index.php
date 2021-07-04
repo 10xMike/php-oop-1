@@ -31,11 +31,11 @@ $movies = [
         <div class="movies">
             <?php foreach ($movies as $movie): ?>
                 <div class="movie_card">
-                    <span><?$movie->title?></span>
-                    <img src="<?$movie->image?>" alt="">
-                    <p><?$movie->description?></p>
-                    <span>Language: <?$movie->language?></span>
-                    <span>Year: <?$movie->year?></span>
+                    <span><?php echo $movie->title ?></span>
+                    <img src="<?php echo $movie->image ?>" alt="">
+                    <p><?php echo $movie->description ?></p>
+                    <span>Language: <?php echo $movie->language ?></span>
+                    <span>Year: <?php echo $movie->year ?></span>
                 </div>
             <?php endforeach?>
         </div>
